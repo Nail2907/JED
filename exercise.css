@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.general{
+    width: 90%;
+    height: 400px;
+    margin: 170px auto;
+}
+.box{
+    width: 30%;
+    height: 350px;
+    border: 1px solid gray;
+    float: left;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FF7A00;
+    padding: 5%;
+}
+.box .long{
+    font-size: 17px;
+    font-weight: 500;
+    color: #173D7A;
+    padding: 20px;
+}
+.contest{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    border-bottom: 1px solid #E8E8E8;
+}
+.box .short{
+    font-size: 17px;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.short img{
+    margin-right: 5px;
+}
+.type{
+    margin-left: 90px;
+}
+.href{
+    display: flex;
+    justify-content: space-around;
+}
+.bttn{
+    width: 170px;
+    height: 40px;
+    border: 1px solid #173D7A;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;color: #FDFDFD;
+}
+.bttn a{
+    font-size: 17px;
+    color: #173D7A;
+    text-decoration: none;
+}
+.clr{
+    background-color: #FF7A00;
+}
+.clr a{
+    color: #FDFDFD;
+}
