@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("Fonts/Poppins/Roboto-Black.ttf");
+}
+.all{
+    width: 380px;
+    margin: 0 auto;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+}
+.first{
+    background-color: #000000;
+}
+.second{
+    background-color: #C0C0C0;
+}
+.third{
+    background-color: #808080;
+}
+.fourth{
+    background-color: #3498db;
+}
+.fifth{
+    background-color: #800000;
+}
+.sixth{
+    background-color: #FF0000;
+}
+.seventh{
+    background-color: #800080;
+}
+.eighth{
+    background-color: #FF00FF;
+}
+.ninth{
+    background-color: #008000;
+}
+.tenth{
+    background-color: #00FF00;
+}
+.eleventh{
+    background-color: #808000;
+}
+.twelfth{
+    background-color: #FFFF00;
+}
+.thirteenth{
+    background-color: #000080;
+}
+.fourteenth{
+    background-color: #0000FF;
+}
+.fifteenth{
+    background-color: #008080;
+}
+.sixteenth{
+    background-color: #00FFFF;
+}
+.all:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.div{
+    height: 200px;
+}
+
+/* ----------Task3---------- */
+
+.href{
+    text-align: center;
+    height: 400px;
+}
+a{
+    padding: 30px 50px;
+    background-color: #00FF00;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+}
+a:visited{
+    background-color: #FFFF00;
+}
+a:not(:visited){
+    background-color: #FF0000;
+}
+a:active{
+    background-color: #000000;
+}
