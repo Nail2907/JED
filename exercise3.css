@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.all{
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    width: 315px;
+    height: 200px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+img{
+    width: 50px;
+    padding-top: 35px;
+    margin-left: -5px;
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    margin: 0px;
+    font-family: monospace;
+}
+.number{
+    font-size: 25px;
+    font-weight: 200;
+    margin: 0px;
+    padding-bottom: 0px;
+    margin-top: -5px;;
+}
+.val{
+    font-size: 9px;
+    font-family: 'Tahoma', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.date{
+    padding: 0px;
+    font-family: 'Tahoma', sans-serif;
+    margin: 0px;
+}
+.purple{
+    background-color: #8e44ad;
+}
+.green{
+    background-color: #009432;
+}
+.blue{
+    background-color: #0652DD;
+}
+.black{
+    background-color: #161617;
+}
