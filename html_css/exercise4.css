@@ -1,0 +1,29 @@
+div {
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    border: 5px solid;
+    border-radius: 12px;
+    border-left-color: #FF0000;
+    border-top-color: #0000FF;
+    border-right-color: #800080;
+    border-bottom-color: #FFFF00;
+    /* animation: circle 1s linear infinite; */
+}
+@keyframes circle {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
