@@ -32,25 +32,32 @@
 
 
 
-let begin = prompt("Who is there?")
+// let begin = prompt("Who is there?")
 
-switch(begin){
-    case null:
-        alert("Canceled");
-        break;
-    default:
-        alert("I dont know uu");
-        break;
-    case "Admin":
-        let pass = prompt("Password?");
-        if(pass == null){
-            alert("Canceled");
-        }
-        else if(pass == "TheMaster"){
-            alert("Welcome!")
-        }
-        else{
-            alert("Wrong password")
-        }
-        break;
-}
+// switch(begin){
+//     case null:
+//         alert("Canceled");
+//         break;
+//     default:
+//         alert("I dont know uu");
+//         break;
+//     case "Admin":
+//         let pass = prompt("Password?");
+//         if(pass == null){
+//             alert("Canceled");
+//         }
+//         else if(pass == "TheMaster"){
+//             alert("Welcome!")
+//         }
+//         else{
+//             alert("Wrong password")
+//         }
+//         break;
+// }
+
+
+// for(let i=1; i<=100; i++){
+//     if(i%2===1){
+//         console.log(i)
+//     }
+// }
