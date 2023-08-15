@@ -1,4 +1,4 @@
-let number = 37
+let number = Math.floor(Math.random() * 50)
 let user = +prompt("Ededi daxil edin!")
 let count = 1
 let balance = 0
@@ -13,22 +13,28 @@ while(number !== user){
     }
 }
 switch(count){
-    case count===1:
+    case 1:
         balance+=1000
         console.log(balance)
         console.log(`${count} defeye tapdin, ELA!`)
         break;
-    case count===2,3,4,5:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
         balance+=750
         console.log(balance)
         console.log(`${count} defeye tapdin, Yaxsi!`)
         break;
-    case count===6,7,8,9:
+    case 6:
+    case 7:
+    case 8:
+    case 9:
         balance+=250
         console.log(balance)
         console.log(`${count} defeye tapdin, Normal!`)
         break;
-    case count===10:
+    case 10:
         balance+=0
         console.log(balance)
         console.log(`${count} defeye tapdin, Kafi!`)
