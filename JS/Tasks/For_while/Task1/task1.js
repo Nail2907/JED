@@ -1,3 +1,4 @@
+// A: daha da yaxsi ede bilersen
 let number = Math.floor(Math.random() * 50)
 let user = +prompt("Ededi daxil edin!")
 let count = 1
