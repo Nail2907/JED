@@ -1,3 +1,4 @@
+// A: best killer 🗡
 let eded = +prompt("Eded daxil edin!")
 
 if(eded>=10 && eded<=99){
