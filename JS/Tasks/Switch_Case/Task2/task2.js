@@ -1,3 +1,5 @@
+// A: live legend 🐱‍💻
+
 let number = +prompt("Istediyiniz ededi daxil edin!")
 
 if(number%3==0 && number%5==0){
