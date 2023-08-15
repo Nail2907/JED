@@ -1,3 +1,5 @@
+// A: live legend 🐱‍💻
+
 let j = +prompt("Reqem daxil edin!");
 let a = 1
 
