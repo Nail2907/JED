@@ -1,3 +1,4 @@
+// A: best killer 🗡
 let reqem = +prompt("Reqem daxil edin!")
 let a = 0
 
