@@ -1,3 +1,4 @@
+// A: cool 😎
 let word = prompt("Kim olduqunuz deyin!")
 
 switch(word){
